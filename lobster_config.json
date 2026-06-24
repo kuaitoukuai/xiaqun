@@ -1,0 +1,162 @@
+[
+  {
+    "name": "WorkBuddy",
+    "keyword": "WorkBuddy",
+    "exact": false,
+    "type": "electron",
+    "edit": true,
+    "send_btn": null,
+    "enabled": true,
+    "note": "AI 编程助手"
+  },
+  {
+    "name": "Kimi",
+    "keyword": "kimi-desktop",
+    "exact": false,
+    "type": "electron",
+    "edit": true,
+    "send_btn": "发送",
+    "enabled": true,
+    "note": "月之暗面 AI 助手"
+  },
+  {
+    "name": "CodeBuddy CN",
+    "keyword": "CodeBuddy CN",
+    "exact": false,
+    "type": "electron",
+    "edit": true,
+    "send_btn": null,
+    "enabled": true,
+    "note": "腾讯代码助手"
+  },
+  {
+    "name": "ZCode",
+    "keyword": "ZCode",
+    "exact": false,
+    "type": "electron",
+    "edit": true,
+    "send_btn": "发送",
+    "enabled": true,
+    "note": "字节跳动代码助手"
+  },
+  {
+    "name": "Qoder",
+    "keyword": "Quest",
+    "exact": false,
+    "type": "electron",
+    "edit": true,
+    "send_btn": null,
+    "enabled": true,
+    "note": "Quest 编程助手"
+  },
+  {
+    "name": "豆包",
+    "keyword": "豆包",
+    "exact": false,
+    "type": "electron",
+    "edit": true,
+    "send_btn": null,
+    "enabled": true,
+    "note": "字节跳动 AI 助手"
+  },
+  {
+    "name": "Trae",
+    "keyword": "新建文件夹 (2) - Trae",
+    "exact": false,
+    "type": "webview",
+    "edit": false,
+    "send_btn": null,
+    "enabled": true,
+    "note": "Trae 国际版"
+  },
+  {
+    "name": "Trae CN",
+    "keyword": "需求确认问题清单",
+    "exact": false,
+    "type": "webview",
+    "edit": false,
+    "send_btn": null,
+    "enabled": true,
+    "note": "Trae 中国版"
+  },
+  {
+    "name": "Codex",
+    "keyword": "Codex",
+    "exact": false,
+    "type": "webview",
+    "edit": false,
+    "send_btn": null,
+    "enabled": true,
+    "note": "OpenAI Codex"
+  },
+  {
+    "name": "TRAE Work",
+    "keyword": "TRAE Work",
+    "exact": true,
+    "type": "webview",
+    "edit": false,
+    "send_btn": null,
+    "enabled": true,
+    "note": "TRAE Work 国际版"
+  },
+  {
+    "name": "TRAE Work CN",
+    "keyword": "TRAE Work CN",
+    "exact": true,
+    "type": "webview",
+    "edit": false,
+    "send_btn": null,
+    "enabled": true,
+    "note": "TRAE Work 中国版"
+  },
+  {
+    "name": "MIMO",
+    "keyword": "MiMo",
+    "exact": false,
+    "type": "browser",
+    "edit": true,
+    "send_btn": null,
+    "enabled": true,
+    "note": "小米 MIMO (Maxthon)"
+  },
+  {
+    "name": "OpenClaw",
+    "keyword": "OpenClaw",
+    "exact": false,
+    "type": "browser",
+    "edit": true,
+    "send_btn": null,
+    "enabled": true,
+    "note": "OpenClaw (Edge)"
+  },
+  {
+    "name": "cmd.exe",
+    "keyword": "cmd.exe",
+    "exact": false,
+    "type": "terminal",
+    "edit": false,
+    "send_btn": null,
+    "enabled": true,
+    "note": "命令提示符"
+  },
+  {
+    "name": "PowerShell",
+    "keyword": "Windows PowerShell",
+    "exact": false,
+    "type": "terminal",
+    "edit": false,
+    "send_btn": null,
+    "enabled": true,
+    "note": "Windows PowerShell"
+  },
+  {
+    "name": "WindowsTerminal",
+    "keyword": "MC |",
+    "exact": false,
+    "type": "terminal",
+    "edit": false,
+    "send_btn": null,
+    "enabled": true,
+    "note": "Windows 终端"
+  }
+]
