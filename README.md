@@ -207,3 +207,50 @@ pip install -r requirements.txt
 ## 致谢
 
 感谢所有为这个项目做出贡献的开发者！
+
+## 程序流程图
+
+![程序流程图](images/program-flowchart.png)
+
+上图展示了龙虾群控程序的执行流程：
+
+1. **启动程序** - 用户运行龙虾群控脚本
+2. **列出龙虾程序** - 扫描所有运行中的龙虾程序窗口
+3. **发送消息** - 向选中的龙虾程序发送消息
+4. **窗口查找** - 使用win32gui.EnumWindows()枚举窗口
+5. **窗口激活** - 使用SetForegroundWindow()激活窗口
+6. **控件操作** - 使用UI Automation定位输入框和按钮
+7. **键盘模拟** - 使用keyboard库模拟按键操作
+8. **完成发送** - 消息成功发送到目标程序
+
+## 技术架构
+
+龙虾群控采用混合架构：
+- **Windows API** - 用于窗口查找和激活
+- **UI Automation** - 用于控件定位和操作
+- **键盘模拟** - 用于通用输入操作
+- **剪贴板操作** - 用于文本传输
+
+## 使用示例
+
+```bash
+# 列出所有龙虾程序
+python lobster_send.py --list
+
+# 发送消息到所有程序
+python lobster_send.py "消息内容"
+
+# 发送到指定程序
+python lobster_send.py "消息内容" --target Kimi
+
+# 扫描控件树（调试用）
+python lobster_send.py "消息内容" --scan
+```
+
+## 依赖库
+
+- `win32gui` - Windows GUI API
+- `win32clipboard` - Windows剪贴板操作
+- `win32con` - Windows常量定义
+- `keyboard` - 键盘模拟
+- `pywinauto` - UI Automation控件操作
