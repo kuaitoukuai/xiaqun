@@ -1,6 +1,8 @@
 # 虾群 (XiaQun) v0.1.0
 
 一个使用Python程序、skill调用句柄批量控制多种AI龙虾软件、cmd的工具
+<img width="1198" height="1313" alt="73406038ebfd973422bca8227d4312ff" src="https://github.com/user-attachments/assets/13edf9d2-cc47-40ad-ad39-bd7d1c1ba10a" />
+
 
 ## 功能特性
 
