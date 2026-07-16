@@ -44,3 +44,13 @@ Thumbs.db
 # 临时文件
 *.tmp
 *.temp
+
+
+# 媒体文件
+*.jpg
+*.png
+*.mp4
+*.docx
+
+# 敏感信息
+git_credentials.md
